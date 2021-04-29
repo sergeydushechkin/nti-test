@@ -1,5 +1,5 @@
-# webpack_gulp
-Webpack and gulp in one project boilerplate.
+# nti-test
+Nti test task.
 
 ## Install
 
