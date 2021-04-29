@@ -1,0 +1,24 @@
+.films__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.films__item {
+  margin-bottom: 13px;
+}
+
+@media (min-width: $tablet-width) {
+  .films__list {
+    justify-content: space-between;
+  }
+
+  .films__item {
+    margin: 20px;
+  }
+}

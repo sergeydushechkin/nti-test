@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preload" href="fonts/Roboto-Regular.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Roboto-Bold.woff" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Roboto-Regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" crossorigin="anonymous">
+  <title>Nti-test</title>
+</head>
+
+<body>
+  <div id="root">
+    <div class="container">
+      <h1 class="page-main__header">Films</h1>
+      <header class="page-header">
+        <div class="page-header__option options">
+          <label class="options__label">
+            <input class="options__checkbox" type="checkbox">Show hidden films
+          </label>
+        </div>
+        <nav class="page-header__pagination pagination">
+          <ul class="pagination__list">
+            <li class="pagination__item">
+              <a class="pagination__link" href="">1</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="">2</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="">3</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="">4</a>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="">5</a>
+            </li>
+            <li class="pagination__item">
+              <span class="pagination__link" href="">...</span>
+            </li>
+            <li class="pagination__item">
+              <a class="pagination__link" href="">N</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="page-main__films">
+          <h2 class="visually-hidden">Films list</h2>
+          <ul class="films__list">
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+            <li class="films__item film">
+              <div class="film__cover">
+                <a class="film__link" href="">
+                  <div class="film__image-container">
+                    <img class="film__image" src="./img/medium-cover.jpg" width="230" height="345" alt="Title">
+                  </div>
+                </a>
+                <div class="film__indicator indicator">
+                  <label class="indicator__label">
+                    <input class="indicator__switch" type="checkbox" value="hide">
+                    <span class="indicator__icon">Hide</span>
+                  </label>
+                </div>
+              </div>
+              <div class="film__caption caption">
+                <a class="caption__link">
+                  <ul class="caption__list">
+                    <li class="caption__item">
+                      <h3 class="caption__header">Title: <span>Film title</span></h3>
+                    </li>
+                    <li class="caption__item">
+                      Year: <span class="caption__value">2020</span>
+                    </li>
+                    <li class="caption__item">
+                      Genre: <span class="caption__value">Drama</span>
+                    </li>
+                  </ul>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <section class="page-preview preview preview--inactive">
+        <h2 class="visually-hidden">Video preview</h2>
+        <div class="preview__background">
+          <div class="preview__container">
+            <h3 class="preview__title">Title</h3>
+
+            <div class="preview__content content">
+              <div class="content__image-container">
+                <img class="content__image" src="./img/image.jpg" width="2142" height="1345" alt="Username">
+              </div>
+              <ul class="content__list">
+                <li class="content__item">
+                  Year: <span class="content__value">2020</span>
+                </li>
+                <li class="content__item">
+                  Genre: <span class="content__value">Drama</span>
+                </li>
+                <li class="content__item">
+                  Description: <span class="content__value">Drama</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="preview__comments comments">
+              <ul class="comments__list">
+                <li class="comments__item comment">
+                  <div class="comment__author">
+                    Author
+                    <span class="comment__author-name">Sergey</span>
+                  </div>
+                  <p class="comment__text">Film not so bad!</p>
+                </li>
+                <li class="comments__item comment">
+                  <div class="comment__author">
+                    Author
+                    <span class="comment__author-name">Sergey</span>
+                  </div>
+                  <p class="comment__text">Film not so bad!</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="preview__close preview-close" tabindex="0">
+              <span class="visually-hidden">Close</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="./bundle.js"></script>
+</body>
+
+</html>
