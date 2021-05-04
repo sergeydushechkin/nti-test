@@ -1,0 +1,23 @@
+.indicator__label {
+  position: relative;
+}
+
+.indicator__switch {
+  opacity: 0;
+}
+
+.indicator__icon::after {
+  content: "";
+
+  position: absolute;
+
+  width: 32px;
+  height: 23px;
+
+  background-image: url("./img/eye.svg");
+  background-repeat: no-repeat;
+}
+
+.indicator__switch:checked + .indicator__icon::after {
+  background-image: url("./img/eye-crossed.svg");
+}

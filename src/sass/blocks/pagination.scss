@@ -1,23 +1,45 @@
 .pagination__list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   list-style: none;
   margin: 0;
   padding: 0;
-
-  justify-content: center;
 }
 
 .pagination__item {
   margin: 0 5px;
+  margin-bottom: 10px;
 
   border: 1px solid #ffffff;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .pagination__link {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 8px 11px;
+
+  font-size: 15px;
+  line-height: 17px;
 
   color: #ffffff;
   text-decoration: none;
+}
+
+@media (min-width: $desktop-width) {
+  .pagination__list {
+    background-color: red;
+  }
+
+  .pagination__link {
+    padding: 10px 15px;
+  }
 }
