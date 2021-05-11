@@ -357,7 +357,7 @@ body {
   padding: 0 10px; }
 
 .page-header {
-  margin-bottom: 20px; }
+  margin-bottom: 10px; }
 
 .page-header__option {
   margin-bottom: 15px; }
@@ -371,7 +371,7 @@ body {
 .pagination__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0; }
@@ -508,10 +508,13 @@ body {
 .indicator__switch:checked + .indicator__icon::after {
   background-image: url("./img/eye-crossed.svg"); }
 
-.caption__list {
+.caption__definitions {
   margin: 0;
   padding: 0;
   list-style: none; }
+
+.caption__header {
+  margin: 0; }
 
 .preview {
   width: 100%;
